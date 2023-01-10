@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Jacob Giraud',
+  tagline: 'I think dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '::1',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,13 +65,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'about-me',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About me',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jagiraud',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,28 +81,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Overview',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About me',
+                to: '/docs/about-me',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Reach out',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/jacobgiraud/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/jacob_giraud',
               },
             ],
           },
@@ -115,12 +111,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/jagiraud',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} girauddev.cloud. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
