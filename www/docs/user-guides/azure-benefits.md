@@ -17,7 +17,7 @@ Transferring the subscription is of course optional, but in most cases this is b
 
 Ok, so first off we should verify that you have the correct entitlement.
 
-1. Go to [my.visualstudio.com](my.visualstudio.com), sign in with your company account
+1. Go to [my.visualstudio.com](https://my.visualstudio.com/), sign in with your company account
 1. Click `Subscriptions`
 1. Under `Subscription / Program` Visual Studio Enterprise (MPN) should be listed.
    ![img](@site/static/img/mpn/mpn-active-sub.png)
