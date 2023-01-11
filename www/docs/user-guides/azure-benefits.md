@@ -43,18 +43,19 @@ This will provision a new Azure subscription named `Visual Studio Enterprise Sub
 ---
 
 1. Log in to the Azure portal with your business account, ensure that you are in business tenant and that your subscription isn't  excluded by Azure portal subscription filter.
-2. Find your personal MPN subscription in the overview, it might be more than one subscriptions with same name.
+1. Find your personal MPN subscription in the overview, it might be more than one subscriptions with same name.
    1. You should be able to distinguish your subscription based on permission. You should have `Owner` permission on yours.
    ![img](@site/static/img/mpn/mpn-sub-iam.png)
-3. Navigate back to the subscription overview.
+1. Navigate back to the subscription overview.
    ![img](@site/static/img/mpn/mpn-sub-transfer.png)
-4. Click "Change directory",
-5. Select your personal tenant (should now be visible as a destination).
+1. Click "Change directory",
+1. Select your personal tenant (should now be visible as a destination).
 
 :::caution
 Transferring the subscription to another tenant will have an impact on RBAC assignments and Managed Identities. Review impact  before you accept transfer.
 :::
-7. Click "Change".
+
+1. Click "Change".
 
 :::note
 NOTE: It can take a while (~1-2 hours) before the subscription appears in your personal tenant.
@@ -63,3 +64,9 @@ NOTE: It can take a while (~1-2 hours) before the subscription appears in your p
 1. Switch back to personal tenant (with your business account)
 1. You should find the transferred subscription in the subscription overview.
 1. You can now delegate permissions to you personal account if you prefer to use that.
+
+:::tip
+Make sure to cleanup costly resources when you are not using them. When you run out of credits, the subscription will be disabled and cannot be used until your subscription enter a new billing period.
+:::
+
+Now go enjoy your credits!
