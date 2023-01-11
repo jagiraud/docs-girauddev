@@ -1,40 +1,34 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Azure',
-    Svg: require('@site/static/img/azurelogo.svg').default,
+    title: "Azure",
+    Svg: require("@site/static/img/azurelogo.svg").default,
     description: (
-      <>
-        The cloud service I spend most of my time.
-      </>
+      <>The cloud service I spend most of my time</>
     ),
   },
   {
-    title: 'Bicep',
-    Svg: require('@site/static/img/biceplogo.svg').default,
+    title: "Bicep",
+    Svg: require("@site/static/img/biceplogo.svg").default,
     description: (
-      <>
-        The language I use the most, except for perhaps powershell.
-      </>
+      <>The language I use the most, except for perhaps powershell</>
     ),
   },
   {
-    title: 'GitHub',
-    Svg: require('@site/static/img/githublogo.svg').default,
+    title: "GitHub",
+    Svg: require("@site/static/img/githublogo.svg").default,
     description: (
-      <>
-        The platform that makes it all happen
-      </>
+      <>The platform that makes it all happen</>
     ),
-  },
+  }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
