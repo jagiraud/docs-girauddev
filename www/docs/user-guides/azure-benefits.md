@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: Azure Benefits
+labels: azure
 ---
 
 ## Overview
@@ -36,12 +37,12 @@ This will provision a new Azure subscription named `Visual Studio Enterprise Sub
 1. Next you should log in to the Azure portal with your personal account. Ensure you that you:
    1. are in the correct tenant (lab/personal)
    2. have sufficient privileges to invite guest users
-2. Invite the account with the Visual Studo account to your personal tenant. (business account)
-   1. This lets you select your lab tenant when we will transfer the subscription later on.
+2. Invite the account with the Visual Studio Enterprise subscription to your personal tenant. (business account)
+   1. This lets you select your lab tenant later when we will transfer the subscription.
 
 ---
 
-1. Log in to the Azure portal with your business account, ensure that you are in business tenant.
+1. Log in to the Azure portal with your business account, ensure that you are in business tenant and that your subscription isn't  excluded by Azure portal subscription filter.
 2. Find your personal MPN subscription in the overview, it might be more than one subscriptions with same name.
    1. You should be able to distinguish your subscription based on permission. You should have `Owner` permission on yours.
    ![img](@site/static/img/mpn/mpn-sub-iam.png)
