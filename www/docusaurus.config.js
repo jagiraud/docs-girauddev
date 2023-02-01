@@ -40,6 +40,7 @@ const config = {
             'https://github.com/jagiraud/docs-girauddev',
         },
         userguides: {
+          showReadingTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
